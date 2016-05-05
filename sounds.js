@@ -2,27 +2,21 @@ var soundContext = new AudioContext();
 
 var sounds = {
   "dead" : {
-    buffer : null,
     url : "sounds/dead.wav"
   },
   "smash" : {
-    buffer : null,
     url : "sounds/smash.mp3"
   },
   "ping" : {
-    buffer : null,
     url : "sounds/ping.mp3"
   },
   "bump" : {
-    buffer : null,
     url : "sounds/bump.mp3"
   },
   "jump" : {
-    buffer : null,
     url : "sounds/jump.wav"
   },
   "coin" : {
-    buffer : null,
     url : "sounds/coin.mp3"
   }
 };
